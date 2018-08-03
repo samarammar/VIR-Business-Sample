@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.accuragroup.eg.VirAdmin.com.accuragroup.eg.Vir.activities.ExpirePrivilegeActivity">
+
+
+    <include layout="@layout/view_toolbar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_invalid_store"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:text="@string/we_re_sorry"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_have_control"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_margin"
+            android:text="@string/renew_subscription"
+            android:background="@drawable/btn_renew"
+            android:textColor="#FFF"
+            android:textSize="14dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:id="@+id/btn_renew"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

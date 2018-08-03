@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/view_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?attr/actionBarSize"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        >
+
+        <TextView
+           android:id="@+id/tv_rulesTitles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/you_have_to_read_these_policies_before_adding_a_product"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_1_the_maximum_product_image_width_is_2000px"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_2_the_maximum_product_image_size_is_2_mb"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule3"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_3_use_only_the_images_with_the_accuracy_and_high_quality"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule4"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_4_don_t_use_the_image_that_incredibly_shy"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_5_don_t_use_the_images_that_include_person_faces_and_not_suitable_for_the_product_purpose"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_rule6"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_6_you_can_use_the_model_image_but_after_face_obliterate"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule7"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_7_don_t_use_person_names_in_the_product_name_and_don_t_use_any_incredibly_shy_words"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule8"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"
+            android:text="@string/_8_the_shop_has_the_commitment_with_his_product_price_and_any_sale_price_on_his_product_or_offer"
+            />
+
+        <TextView
+            android:id="@+id/tv_rule9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:textSize="15dp"
+            android:text="@string/_9_vir_administration_has_the_full_right_to_remove_any_image_doesn_t_match_the_policies_without_notify_the_shop_owner"
+            />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+
+        android:id="@+id/footer"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="?attr/actionBarSize"
+
+        android:layout_alignParentBottom="true"
+
+
+
+        android:background="#000"
+
+        >
+        <Button
+            android:id="@+id/btn_agree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#2b9721"
+            android:text="@string/agree"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

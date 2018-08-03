@@ -1,0 +1,203 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/twitterColor</item>
+        <item name="android:actionMenuTextColor">@color/twitterColor</item>
+    </style>
+
+    <style name="SingleEllipsizedText">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+    <style name="ScreenTitle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="WhiteWidget">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textColorHighlight">@color/white_transparent</item>
+    </style>
+
+    <style name="TabTextView">
+        <item name="android:textSize">@dimen/below_medium_text</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="PrimaryButtonTheme">
+        <item name="android:background">#EF4836</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:colorPressedHighlight">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AccentButtonTheme">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:colorPressedHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="RedButtonTheme">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:colorPressedHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CroppedImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CategoryMainText">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="CategorySubText">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="SubcategoryPrice">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="detailsPrice">
+        <item name="android:textSize">@dimen/below_medium_text</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SubcategorySalePrice">
+        <item name="android:textSize">@dimen/very_small_text</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="detailsSalePrice">
+        <item name="android:textSize">@dimen/below_medium_text</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="SubcategoryTitle">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+    <style name="detailsTitle">
+        <item name="android:textSize">@dimen/above_medium_text</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="aboutTitle">
+        <item name="android:textSize">@dimen/large_text</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">@dimen/top_down_margin</item>
+        <item name="android:layout_marginBottom">@dimen/top_down_margin</item>
+    </style>
+
+    <style name="aboutDetails">
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/top_down_margin</item>
+        <item name="android:layout_marginBottom">@dimen/top_down_margin</item>
+    </style>
+
+    <style name="SmallBorderlessButton" parent="MyButton">
+        <item name="android:minHeight">32dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="MyButton" parent="Widget.AppCompat.Button">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="MyEditText" parent="Base.V7.Widget.AppCompat.EditText">
+
+        <item name="android:textColorHint">@color/black_transparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <style name="MyTextView">
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/yellow</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+
+    </style>
+
+    <style name="RatingBarLarge" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/yellow</item>
+        <item name="colorControlActivated">@color/yellow</item>
+        <item name="android:maxHeight">20dip</item>
+
+    </style>
+
+    <style name="AlertDialogDanger" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/error</item>
+    </style>
+
+    <style name="MyCardView" parent="CardView.Light">
+
+        <item name="cardCornerRadius">7dp</item>
+        <!--<item name="cardElevation">@dimen/cardview_default_elevation</item>-->
+
+        <item name="android:shadowColor">@color/black</item>
+
+    </style>
+
+    <style name="ItemCardView" parent="CardView.Light">
+
+        <item name="cardCornerRadius">2dp</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="android:shadowColor">@color/cardview_shadow_end_color</item>
+
+    </style>
+
+
+
+</resources>

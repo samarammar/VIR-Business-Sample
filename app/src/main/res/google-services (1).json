@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "417105855079",
+    "firebase_url": "https://vmall-172707.firebaseio.com",
+    "project_id": "vmall-172707",
+    "storage_bucket": "vmall-172707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417105855079:android:2c07b41d85f20ee9",
+        "android_client_info": {
+          "package_name": "com.accuragroup_eg.vmall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417105855079-rbvgv9d2f05uma3s4tgugf7ebh19jnpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accuragroup_eg.vmall",
+            "certificate_hash": "97d9ad84182ad74d06ead2f058de4e97683eea09"
+          }
+        },
+        {
+          "client_id": "417105855079-84df0dq2il6hlg3m0s5k5fbe908eq46n.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "417105855079-3p7ecig72b6ucrkavqlb1rl5fkq2jeha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accuragroup_eg.vmall",
+            "certificate_hash": "73ec39be999bccd8b28e57aa63c7ee1735425e1d"
+          }
+        },
+        {
+          "client_id": "417105855079-r4mkv6tj0bmini89217nrr07ohj4c7c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXiwWis7H7SFW4KzBU-XDFX6ko25MEj5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417105855079-i6jh1usbu6r24qm0qe530s0jp58p1903.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Accura.VMall"
+              }
+            },
+            {
+              "client_id": "417105855079-84df0dq2il6hlg3m0s5k5fbe908eq46n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:title="@string/dashboard"
+            android:icon="@drawable/ic_sidemenu_dashboard"
+            />
+
+        <item
+            android:id="@+id/reports_Business"
+            android:icon="@drawable/ic_sidemenu_reporrts_hover"
+            android:title="@string/shop_reports" />
+
+        <item
+            android:id="@+id/messages_Business"
+            android:icon="@drawable/ic_sidemenu_messages_hover"
+            android:title="@string/messages" />
+        <item
+            android:id="@+id/notifications_Business"
+            android:icon="@drawable/ic_sidemenu_notifiocations_ho"
+            android:title="@string/notification" />
+
+
+
+
+
+        <item
+            android:id="@+id/reviews_Business"
+            android:icon="@drawable/ic_sidemenu_reviews"
+            android:title="@string/reviews" />
+
+
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/myaccount_Business"
+            android:icon="@drawable/ic_sidemenu_myaccount_hover"
+            android:title="@string/my_account" />
+
+
+        <item
+            android:id="@+id/payments"
+            android:title="@string/payments"
+            android:icon="@drawable/ic_sidemenu_payment"
+            />
+
+        <item
+            android:id="@+id/appsetings_Business"
+            android:icon="@drawable/ic_sidemenu_appsettings_hover"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/shopsettings_Business"
+            android:icon="@drawable/ic_sidemenu_shopsettings_hove"
+            android:title="@string/shop_settings" />
+
+        <item
+            android:id="@+id/aboutvir_Business"
+            android:icon="@drawable/ic_sidemenu_about_hover"
+            android:title="@string/about_vir" />
+
+
+        <item
+            android:id="@+id/contactus_Business"
+            android:icon="@drawable/ic_sidemenu_contact_hover"
+            android:title="@string/contact_us" />
+
+    </group>
+
+
+
+
+
+</menu>

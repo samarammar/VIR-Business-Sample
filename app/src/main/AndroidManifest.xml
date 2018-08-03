@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.accuragroup.eg.VirAdmin">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="${applicationId}.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:name=".VirAdmin"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/viradmin"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+
+        //fabrics data
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="622c160aacbaec43d641d277d721a3862dd386ed" />
+
+
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.AddProductActivity" />
+        <activity android:name=".activities.EditProductActivity" />
+
+        <activity android:name=".activities.ExpirePrivilegeActivity" />
+        <activity android:name=".activities.DashBoardActivity" />
+        <activity android:name=".activities.MyStoreActivity" />
+        <activity android:name=".activities.ProductPoliciesActivity" />
+
+        <service android:name=".MyFireBaseInstancIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activities.PaymentScreenActivity" />
+        <activity android:name=".activities.AddPaymentScreenActivity" />
+        <activity android:name=".activities.PaymentWebViewActivity" />
+        <activity android:name=".activities.PaymentResponseActivity" />
+    </application>
+
+</manifest>

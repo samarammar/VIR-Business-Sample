@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "405483614741",
+    "firebase_url": "https://vir-c-873fd.firebaseio.com",
+    "project_id": "vir-c-873fd",
+    "storage_bucket": "vir-c-873fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405483614741:android:15a5e6d18f90da91",
+        "android_client_info": {
+          "package_name": "com.accuragroup.eg.VirAdmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405483614741-r5lutganst0l5snppim2o2339vjar1ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accuragroup.eg.VirAdmin",
+            "certificate_hash": "73ec39be999bccd8b28e57aa63c7ee1735425e1d"
+          }
+        },
+        {
+          "client_id": "405483614741-2ji6lg5363eo24uv9sbil8il30mng1f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2mxLtSHICoZlQfdu8nK11kYvr7Fm-7_w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405483614741-es12bt91ah1cv7iso14f6kmvtl6aoto9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Accura.com.virAdmin",
+                "app_store_id": "1326794410"
+              }
+            },
+            {
+              "client_id": "405483614741-2ji6lg5363eo24uv9sbil8il30mng1f8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

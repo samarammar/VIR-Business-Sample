@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_toolbar"></include>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/add_products_images"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/iv_image_product1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edit_text_border"
+                        android:src="@drawable/ic_addimage" />
+
+                    <ImageView
+                        android:id="@+id/iv_image_product2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edit_text_border"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/ic_addimage" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_image_product3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edit_text_border"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/ic_addimage" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_add_product_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/add_review_text"
+                    android:hint="@string/product_name"
+                    android:padding="10dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/select_product_section"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/ch_men"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/men" />
+
+                    <CheckBox
+                        android:id="@+id/ch_women"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/women" />
+
+                    <CheckBox
+                        android:id="@+id/ch_kids"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/kids" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <!--<Spinner-->
+
+                        <!--android:id="@+id/sp_add_mainCats"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginBottom="5dp"></Spinner>-->
+
+                    <!--<Spinner-->
+                        <!--android:id="@+id/sp_add_subCats"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"></Spinner>-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/et_category_product"
+                            style="@style/MyEditText"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/border"
+                            android:drawableEnd="@drawable/ic_dropdown_arrow"
+                            android:focusable="false"
+                            android:padding="8dp"
+                            android:gravity="start|center"
+                            android:text="@string/choseCategory"
+                            android:drawableRight="@drawable/ic_dropdown_arrow" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/et_subcategory_product"
+                            style="@style/MyEditText"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/border"
+                            android:drawableEnd="@drawable/ic_dropdown_arrow"
+                            android:focusable="false"
+                            android:padding="8dp"
+                            android:gravity="start|center"
+                            android:text="@string/chose_sub_cat"
+                            android:drawableRight="@drawable/ic_dropdown_arrow" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/add_review_text"
+                        android:orientation="horizontal">
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/et_add_product_price"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/price"
+                            android:inputType="number"
+                            android:textSize="15sp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#d4cfcf" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:text="@string/egp"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/add_review_text"
+                        android:layout_marginStart="2.5dp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="2.5dp">
+
+                        <com.rengwuxian.materialedittext.MaterialEditText
+                            android:id="@+id/et_add_product_sale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/sale_price"
+                            android:inputType="number"
+                            android:textSize="15sp"
+
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp" />
+
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="#d4cfcf" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:text="@string/egp"
+
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_add_product_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/add_review_text"
+                    android:hint="@string/product_desc"
+                    android:padding="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/ch_menfeature"-->
+
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="@string/make_this_product_as_feature" />-->
+
+                    <CheckBox
+                        android:id="@+id/ch_not_exist"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/not_exist" />
+
+                    <CheckBox
+                        android:id="@+id/ch_hide"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/hide" />
+
+
+                </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<Button-->
+                        <!--android:id="@+id/btn_save_product"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@color/colorAccent"-->
+                        <!--android:text="@string/save" />-->
+
+                    <!--<Button-->
+                        <!--android:id="@+id/btn_cancel_product"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@color/gray"-->
+                        <!--android:text="@string/cancel" />-->
+                <!--</LinearLayout>-->
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+
+        android:id="@+id/footer"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="?attr/actionBarSize"
+
+        android:layout_alignParentBottom="true"
+
+        android:background="#000"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save_product"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EF4836"
+            android:text="@string/save"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btn_cancel_product"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#424242"
+            android:text="@string/cancel"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
